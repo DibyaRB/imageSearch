@@ -6,6 +6,7 @@ class ImageCard extends React.Component{
         this.state={
             spans:0
         };
+        //creating ref to access dom element
         this.imageRef=React.createRef();
     }
 
